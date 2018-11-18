@@ -8,4 +8,23 @@ cd github-issues/fast-cgi-client/25
 docker run -it --rm -v `pwd`:/var/www php:7.0.23-fpm /var/www/run.sh
 ```
 
-If the last command prints "OK" (the output of the `worker.php` script), the code is working as expected.
+After the run you should see an output like this at the end:
+
+```
+Request sent, got ID: 54691
+Request sent, got ID: 6786
+Now check logfile worker.log
+Responses:
+
+Logged to worker.log
+Logged to worker.log
+```
+
+And the contents of worker.log should be:
+
+```
+
+RUNNING
+RUNNING
+
+```

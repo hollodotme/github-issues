@@ -18,5 +18,8 @@ php composer.phar require hollodotme/fast-cgi-client:^1.0
 mkdir -pm 0777 /var/run/php
 php-fpm -D --fpm-config=fpm.conf
 
+echo '' > worker.log
+chmod 0777 worker.log
+
 # Run index.php
 php index.php
