@@ -1,4 +1,4 @@
-# GitHub issue [hollodotme/fast-cgi-client/25](hollodotme/fast-cgi-client/#25)
+# GitHub issue [hollodotme/fast-cgi-client/25](https://github.com/hollodotme/fast-cgi-client/issues/25)
 
 Run the following commands to verify that the code is working:
 
